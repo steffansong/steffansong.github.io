@@ -1,0 +1,150 @@
+/*-- General --*/
+body {
+    background-color: black;
+    font-family: 'Helvetica';
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+    margin: 0;
+    opacity: 0.9;
+  }
+  
+  /*-- Header --*/
+  .header {
+    height: 50px;
+    width: 100%;
+    display: block;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0px;
+    z-index: 10;
+  }
+  
+  .logo {
+    height: 45px;
+    padding-left: 10px;
+    float: left;
+  }
+  
+  .navigation {
+    float: right;
+    margin: 0 auto;
+    display: inline-flex;
+    background-color: black;
+  }
+  
+  .navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 10px 20px;
+    color: white;
+  }
+
+  .navigation a ol {
+    display: table-cell;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+  }
+
+  
+  /*-- Main -- */
+  
+  .mission-container {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1rws6em*_ga*NjY2NDQwOTgyOC4xNjcxNTM5NTMy*_ga_3LRZM6TM9L*MTY5MDQ1MzIyNy4xMjkuMS4xNjkwNDUzMjYzLjAuMC4w); 
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.7;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    display: flex;
+  }
+  
+  h2.message, h4.message {
+   background-color: black;
+   color: seashell;
+   text-align: center;
+   vertical-align: middle;
+   width: 1200px;
+   padding: 15px;
+   margin: 0px;
+   position: relative;
+   top: 300px;
+  }
+  
+  .message {
+    align-items: center;
+  }
+  
+  /*-- Tea of The Month --*/
+  
+  .tea-container {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tea img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+  }
+
+  /*-- Locations --*/
+
+   
+
+
+  .banner {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1wd9lbp*_ga*NjY2NDQwOTgyOC4xNjcxNTM5NTMy*_ga_3LRZM6TM9L*MTY5MDk5MjU1OS4xMzkuMC4xNjkwOTkyNTU5LjAuMC4w);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto auto auto;
+    padding-top: 85px;
+  }
+  
+  .box-container {
+    max-width: 1050px;
+    margin: 15px auto auto auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .location-box {
+    background-color: black;
+    padding: 20px;    
+    height: 300px;
+    flex-basis: 30%;
+    opacity: 0.8;
+    box-sizing: border-box;
+    margin-bottom: auto;
+  }
+/*-- Contact Info -- */
+
+  .contact div {
+    height: 200px;
+  }
+
+  .contact h5 {
+    padding-top: 20px;
+  }
+  
+/*-- Footer -- */
+
+footer {
+  display: flex;
+}
+
+footer p {
+  font-size: 10px;
+  justify-content: flex-start;
+  padding-left: 20px;
+}

@@ -1,0 +1,319 @@
+@font-face {
+  font-family: 'Caveat';
+  src: url(./resources/Caveat-VariableFont_wght.ttf) format('truetype'),
+  url(./resources/Caveat-VariableFont_wght.woff2) format('woff2');
+}
+
+
+html body {
+    background-color: #EFE8DA;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  header .row,
+  footer .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #logo{
+    height:7rem;
+  }
+  
+  header h1 {
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    margin: 0;
+    padding-top: 5rem;
+  }
+
+  .about-me p {
+    font-size: 1.3rem;
+    padding-top: 2rem;
+  }
+
+  .about-me p:last-child {
+    margin-bottom: 3rem;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .nav {
+    justify-content: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+    flex-wrap: nowrap!important;
+  }
+
+  .nav p {
+    margin:0 1.5rem 1rem;
+  }
+
+  .nav a {
+    color: #E2334B;
+  }
+
+  .nav a:hover {
+    color: #000000;
+  }
+
+  .col-sm-1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  ul.col-sm-12 {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer .col-sm-2 {
+    text-align: center;
+  }
+
+  li.col-sm-1::marker {
+    display: none;
+  }
+
+  header p {
+    padding: 0 20px;
+    margin: 0;
+  }
+  
+  .jumbotron {
+    display: flex;
+    align-items: center;
+    background-image: url('https://content.codecademy.com/projects/make-a-website/lesson-4/jumbotron.jpg');
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+  }
+  
+  .jumbotron h2 {
+    font-size: 60px;
+    font-weight: 700;
+    margin: 0;
+    color: #fff;
+  }
+  
+  .jumbotron h3 {
+    margin: 0 0 20px;
+    color: #fff;
+  }
+  
+  section .row img {
+    margin: 0 0 30px;
+    width: 100%;
+  }
+  
+  .col-md-6 {
+    margin: 0 0 30px;
+  }
+  
+  .btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    text-shadow: none;
+    background-color: #ffffff;
+  }
+  
+  .btn.btn-primary:hover {
+    color: #ffffff;
+    background-color: #fbd1d5;
+  }
+  
+  .btn-secondary {
+    background-color: #E8DFE0;
+    color: #ffffff;
+    margin: 0 0 30px;
+  }
+  
+  footer {
+    font-size: 12px;
+    padding: 20px 0;
+  }
+  
+  footer .col-sm-8 {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  footer ul {
+    list-style: none;
+  }
+  
+  footer li img {
+    width: 32px;
+    height: 32px;
+  }
+
+  .profilepic {
+    height: 23rem;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  .profilepic img{
+    border: 1px solid rgba(255, 0, 0, .5);
+    height: 100%;
+    width: auto;
+  }
+
+  .description{
+    text-align: center;
+  }
+
+  .description p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  p.logo {
+    width: 200px;
+    position: relative;
+    margin-top: 50px;
+  }
+
+
+
+  p.jd {
+    color: #000000;
+    font-size: 7rem;
+    font-family: 'Caveat';
+    transform: rotate(350deg);
+  }
+
+
+ 
+  .collapsible {
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    /* width: 100%; */
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .content {
+    padding: 0 35px;
+    display: none;
+    overflow: hidden;
+    background-color: #e1334b;
+    text-align: left;
+    margin: 0 2rem 1rem;
+  }
+
+  .active, .collapsible:hover {
+    background-color: #000;
+  }
+
+  .word::before {
+    position: relative;
+    content: 'Let us connect!';
+    color: #e1334b;
+  }
+  
+  .word:hover::before {
+    content: 'Not here, press on CONTACT!';
+    color: #000000;
+    font-style: italic;
+    font-size: smaller;
+  }
+
+  /* MAIN STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+[data-split],
+[data-split] span {
+  display: inline-block;
+}
+
+[data-split] .inner {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+[data-split] .back {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+[data-split] .char {
+  transition: all 0.4s cubic-bezier(0.4, 0.63, 0.4, 1.02);
+  transition-delay: calc(0.015s * var(--index));
+}
+
+[data-split] .back .char {
+  opacity: 0;
+  /*we use 101% instead of 100% just to be safe that the characters won't appear depending on the font family*/
+  transform: translateY(101%) skewX(55deg);
+}
+
+[data-split-type="hover"] .char {
+  transition-duration: 0.25s;
+}
+
+[data-split-type="scroll"].is-animated .back .char,
+[data-split-type="hover"]:hover .back .char {
+  opacity: 1;
+  transform: none;
+}
+
+[data-split-type="scroll"].is-animated .front .char,
+[data-split-type="hover"]:hover .front .char {
+  opacity: 0;
+  transform: translateY(-101%) skewX(-55deg);
+}
+
+@keyframes example {
+  0%   {bottom: 0;left: 0;}
+  20%  {bottom: 100px;left: 100px;}
+  40%  {bottom: 200px;left: 200px;}
+  50%  {bottom: 200px;left: 200px;transform: rotate(180deg);}
+  80% {bottom: 100px;left: 100px;transform: rotate(180deg);}
+  90% {bottom: 0px;left: 0px;transform: rotate(180deg);}
+  100% {bottom: 0px;left: 0px;}
+}
+
+
+#skills {
+  margin: 0 30rem 5rem 15rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  align-items: center;
+}
+
+
+
+
+@media screen and (max-width: 395px) {
+  p.jd {
+    font-size: 5rem;
+  }
+}
